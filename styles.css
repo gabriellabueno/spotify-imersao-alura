@@ -1,0 +1,102 @@
+body {
+    background: #13111b;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar-navigation, .sidebar-library {
+    background: #201b2d;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    margin-top: 16px;
+}
+
+.sidebar-navigation .logo {
+    background: #201b2d;
+    display: flex;
+    border-radius: 8px;
+    padding: 5px 0 0 5px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.sidebar .title-box {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar .title {
+    padding-left: 20px;
+}
+
+.sidebar a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    &:hover {
+        color: #ff79c6;
+    }
+}
+
+.sidebar nav ul li {
+    padding: 10px 0;
+}
+
+.sidebar-library .first-playlist {
+    background: #382f4e;
+    border-radius: 8px;
+    padding: 16px 16px 0 16px;
+    margin: 15px 15px 0 0;
+    color: #fff;
+    position: relative;
+}
+
+.sidebar-library .first-playlist span {
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.sidebar-library .first-playlist p {
+    font-weight: 400;
+    font-size: 13px;
+    margin: 10px 0 0 0;
+}
+
+.sidebar-library .first-playlist .create-playlist-btn {
+    background: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+    color:#201b2d;
+    padding: 9px 10px 9px 10px;
+    margin: 20px 0 15px 0;
+    &:hover {
+        font-size: 13px;
+        transform: scale(1.03);
+        transition: all .2 ease-in-out;
+    }
+}
+
+.sidebar-library .info-links {
+    padding: 30px 30px 16px 16px;
+
+}
+
+.sidebar-library .info-links li {
+    color: #fff;
+    font-size: 10px;
+    display: inline-block;
+    padding: 0 10px 15px 0;
+    &:hover {
+        color: #ff79c6;
+    }
+}
