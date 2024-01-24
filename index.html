@@ -4,65 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
+    <link rel="icon" href="./assets/icons/favicon.png" type="image/x-icon">
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
 </head>
 <body>
     <div class="sidebar">
-        <nav class="sidebar-navigation">
+        <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
                     <img src="./assets/icons/logo-spotify.png" alt="Spotify Logo">
                 </a>
-            </div>    
-            <div class="title-box">
-                <ul>
-                    <li>
-                        <a href="">
-                            <span class="fa fa-home fa-2x"></span>
-                            <span class="title">Home</span>
-                        </a> 
-                    </li>
-                    <li>
-                        <a href="">
-                            <span class="fa fa-search fa-2x"></span>
-                            <span class="title">Search</span>
-                        </a>
-                    </li>
-                </ul>
             </div>
+
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home fa-xl"></span>
+                        <span class="sidebar__title">Home</span>
+                    </a> 
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search fa-xl"></span>
+                        <span class="sidebar__title">Search</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
-        <div class="sidebar-library">
-            <div class="title-box">
-                <a href="">
-                    <span class="fa fa-bars fa-2x"></span>
-                    <span class="title">Your Library</span>
+
+        <section class="library">
+            <div class="library__content">
+                <a href="#Library">
+                    <span class="fa fa-bars fa-xl"></span>
+                    <span class="sidebar__title">Your Library</span>
                 </a>
-            </div>
+                <button class="fa fa-plus fa-lg"></button>
+            </div> 
+
             <div class="first-playlist">
-                <div>
-                    <span>Create your first playlist</span>
+                <div class="first-playlit__content">
+                    <span class="sidebar__title">Create your first playlist</span>
                     <p>It's easy, we'll help you.</p>
-                </div>
-                <div>
-                    <button class="create-playlist-btn">Create Playlist</button>
+                    <button class="libray__button">
+                        <span>Create Playlist</span>
+                    </button>
                 </div>
             </div>
-            <div class="info-links">
-                <ul>
-                    <li>Legal</li>
-                    <li>Privacy Center </li>
-                    <li>Privacy Policy</li>
-                    <li>Cookies</li>
-                    <li>About Ads</li>
-                    <li>Acessibility</li>
-                    <li>Notice at Collection</li>
-                    <li>Cookies</li>
-                </ul>
+        
+            
+                <div class="bottom-list">
+                    <ul>
+                        <a href="">
+                            <li>Legal</li>
+                            <li>Privacy Center </li>
+                            <li>Privacy Policy</li>
+                            <li>About Ads</li>
+                            <li>Acessibility</li>
+                            <li>Notice at Collection</li>
+                            <li>Your Privacy Choices</li>
+                            <li>Cookies</li>
+                        </a>
+                    </ul>                                    
+                </div>
+                
+            <div class="language">
+                <button class="language__button">
+                    <span class="fa fa-globe"></span>
+                    <span>English</span>
+                </button>
             </div>
-        </div>
+        </section>
+        
     </div>
+
 </body>
 </html>
