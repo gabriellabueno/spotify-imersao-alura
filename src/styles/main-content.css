@@ -1,0 +1,127 @@
+
+/* COMMON ELEMENTS */
+
+.header__navigation, .playlist-container {
+    background-color: var(--mid-purple);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* HEADER */
+
+.main-container {
+    position: fixed;
+    right: 0;
+    left: 0;
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 328px;
+    padding: 8px;
+}
+
+.header__navigation {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.arrow-left,
+.arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color:var(--dark-purple);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 30rem;
+    height: 48px;
+    margin-left: 8px;
+    background-color: var(--dark-purple);
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search .fa-search {
+    color: var(--dark-grey);
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header__search input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    color: var(--dark-grey);
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.signup {
+    color: var(--dark-grey);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    flex-shrink: 0;
+    &:hover{color: var(--ice-white);}
+}
+
+.login {
+    background-color: var(--ice-white);
+    width: 100px;
+    height: 48px;
+    color: var(--dark-purple);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    margin: 0 15px 0 30px;
+    &:hover {
+        transform: scale(1.04);
+        transition: all .3 ease-in-out;
+    }
+}
+
+/* PLAYLISTS CONTENT */
+
+.playlist-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    right: 0;
+    max-width: 80vw;
+    height: 100vh;
+}   
+
+.playlist h1 {
+    font-size: 24px;
+    color: var(--ice-white);
+    margin: 20px;    
+}

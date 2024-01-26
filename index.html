@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
-    <link rel="icon" href="./assets/icons/favicon.png" type="image/x-icon">
+    <link rel="icon" href="./src/assets/icons/favicon.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
@@ -17,10 +19,11 @@
 </head>
 <body>
     <div class="sidebar">
+
         <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
-                    <img src="./assets/icons/logo-spotify.png" alt="Spotify Logo">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="Spotify Logo">
                 </a>
             </div>
 
@@ -28,13 +31,13 @@
                 <li>
                     <a href="">
                         <span class="fa fa-home fa-xl"></span>
-                        <span class="sidebar__title">Home</span>
+                        <span class="sidebar-title">Home</span>
                     </a> 
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#search-input">
                         <span class="fa fa-search fa-xl"></span>
-                        <span class="sidebar__title">Search</span>
+                        <span class="sidebar-title">Search</span>
                     </a>
                 </li>
             </ul>
@@ -44,39 +47,37 @@
             <div class="library__content">
                 <a href="#Library">
                     <span class="fa fa-bars fa-xl"></span>
-                    <span class="sidebar__title">Your Library</span>
+                    <span class="sidebar-title">Your Library</span>
                 </a>
                 <button class="fa fa-plus fa-lg"></button>
             </div> 
 
-            <div class="first-playlist">
-                <div class="first-playlit__content">
-                    <span class="sidebar__title">Create your first playlist</span>
-                    <p>It's easy, we'll help you.</p>
-                    <button class="libray__button">
-                        <span>Create Playlist</span>
-                    </button>
-                </div>
+
+            <div class="first-playlist__content">
+                <span class="sidebar-title">Create your first playlist</span>
+                <p>It's easy, we'll help you.</p>
+                <button>
+                    <span>Create Playlist</span>
+                </button>
             </div>
-        
             
-                <div class="bottom-list">
-                    <ul>
-                        <a href="">
-                            <li>Legal</li>
-                            <li>Privacy Center </li>
-                            <li>Privacy Policy</li>
-                            <li>About Ads</li>
-                            <li>Acessibility</li>
-                            <li>Notice at Collection</li>
-                            <li>Your Privacy Choices</li>
-                            <li>Cookies</li>
-                        </a>
-                    </ul>                                    
-                </div>
+            <div class="bottom-list">
+                <ul>
+                    <a href="">
+                        <li>Legal</li>
+                        <li>Privacy Center </li>
+                        <li>Privacy Policy</li>
+                        <li>About Ads</li>
+                        <li>Acessibility</li>
+                        <li>Notice at Collection</li>
+                        <li>Your Privacy Choices</li>
+                        <li>Cookies</li>
+                    </a>
+                </ul>                                    
+            </div>
                 
             <div class="language">
-                <button class="language__button">
+                <button>
                     <span class="fa fa-globe"></span>
                     <span>English</span>
                 </button>
@@ -84,6 +85,55 @@
         </section>
         
     </div>
+
+    <main>
+        <div class="main-container">
+
+            <nav class="header__navigation">
+
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="arrow left">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="arrow right">
+                    </button>
+                </div>
+
+                <div class="header__search">
+                    <span class="fa fa-search"></span>
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+                
+                <div class="header__login">
+                    <button class="signup">Sign up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </nav>
+
+            <div class="playlist-container">
+                <div class="playlist">
+                    <h1>Spotify Playlists</h2>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="get-premium">
+
+        <div class="footer-text">
+            <p class="get-premium__title">Preview of Spotify</p>
+            <p class="get-premium__subtitle">
+                Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.
+            </p>
+        </div>
+        <button>
+            <span>Sign up free</span>
+        </button>
+
+    </footer>
 
 </body>
 </html>
