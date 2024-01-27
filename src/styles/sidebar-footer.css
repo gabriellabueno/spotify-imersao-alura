@@ -17,27 +17,27 @@ body {
 .sidebar__navigation, 
 .library {
     background-color:  var(--mid-purple);
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .sidebar .fa-home,
 .sidebar .fa-search,
 .sidebar .fa-bars {
-    margin: 0 20px 3px 0;
+    margin: 0 1.25rem 0.1875rem 0;
 }
 
 .sidebar-title {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
 }
 
 .sidebar button,
 .get-premium button {
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 600;
     text-align: center;
     text-decoration: none;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     cursor: pointer;
     &:hover {
         transform: scale(1.04);
@@ -48,24 +48,24 @@ body {
 /* SIDEBAR NAVIGATION */
 
 .logo {
-    padding: 20px 0 0 24px;
-    img {width: 80px;}
+    padding: 1.25rem 0 0 1.5rem;
+    img {width: 5rem;}
 }
 
 .sidebar {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 8px;
-    max-width: 320px;
+    padding: 0.5rem;
+    max-width: 20rem;
 }
 
 .sidebar__navigation {
     display: flex;
     flex-direction: column;
     ul {
-        padding-bottom: 15px;
-        li {padding: 22px 0 12px 24px;}
+        padding-bottom: 0.9375rem;
+        li {padding: 1.375rem 0 0.75rem 1.5rem;}
     }
 }
 
@@ -75,77 +75,75 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .library__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    a {padding: 20px 0 30px 24px;}
+    a {padding: 1.25rem 0 1.875rem 1.5rem;}
 }
 
 .fa-plus {
     color: var( --ice-white);
     background-color: var(--mid-purple);
     border-radius: 50%;
-    padding: 12px 5px;
-    margin: 0 20px 10px 0;
+    padding: 0.9375rem 0.625rem;
+    margin: 0 1.25rem 0.625rem 0;
     cursor: pointer;
-    &:hover {
-        background-color: #2c243d;
-    }
+    &:hover {background-color: var(--purple-hover);}
 }
 
 .first-playlist__content {
     background-color: var(--light-purple);
-    border-radius: 8px;
+    border-radius: 0.5rem;
     color: var( --ice-white);
     display:flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    margin: 0 8px 8px 8px;
-    padding: 18px 20px;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+    padding: 1.125rem 1.25rem;
     p {
         color: white;
-        font-size: 13px;
+        font-size: 0.8125rem;
         font-weight: 400;
-        padding: 15px 0 20px 0;
+        padding: 0.9375rem 0 1.25rem 0;
     }
 }
 
 .first-playlist__content button {
     background-color: #fff;
     color: var(--dark-purple);
-    height: 32px;
-    padding: 0 15px;
+    height: 2rem;
+    padding: 0 0.9375rem;
 }
 
 /* BOTTOM OF SIDEBAR */
 
 .bottom-list {
-    margin: 20px 0;
-    padding: 0 24px;
+    margin: 1.25rem 0;
+    padding: 0 1.5rem;
     display: inline-flex;
     flex-wrap: wrap;
     li {
-        font-size: 11px;
+        font-size: 0.6875rem;
         font-weight: 300;
         display: inline-block;
-        padding: 0 10px 12px 0;
-        margin-right: 10px;
+        padding: 0 0.625rem 0.75rem 0;
+        margin-right: 0.625rem;
     }
 }
 
 .language button {
     color: var( --ice-white);
     background: transparent;
-    border: 1px solid var(--dark-grey);
-    height: 32px;
-    margin: 0 0 20px 24px;
-    padding: 0 15px;
-    &:hover {border: 1px solid var( --ice-white);}
+    border: 0.0625rem solid var(--dark-grey);
+    height: 2rem;
+    margin: 0 0 1.25rem 1.5rem;
+    padding: 0 0.9375rem;
+    &:hover {border: 0.0625rem solid var( --ice-white);}
 }
 
 /* FOOTER - GET PREMIUM */
@@ -156,19 +154,19 @@ body {
     left: 0;
     right: 0;
     background: linear-gradient(170deg, var(--light-purple) 30%, var(--pink) 100%);
-    padding: 15px 40px;
+    padding: 0.9375rem 2.5rem;
     display: flex;
     justify-content: space-between;
 }
 
 .footer-text p {
     color: var(--ice-white);
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .get-premium__title {
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .get-premium__subtitle {
@@ -177,9 +175,9 @@ body {
 
 .get-premium button {
     position: fixed;
-    bottom: 8px;
-    right: 8px;
+    bottom: 0.5rem;
+    right: 0.5rem;
     color: var(--dark-purple);
     background-color: var( --ice-white);
-    padding: 13px 32px;
+    padding: 0.8125rem 2rem;
 }
