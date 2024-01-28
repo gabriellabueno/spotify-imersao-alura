@@ -51,7 +51,7 @@ const Sidebar = () => {
                 <div class="bottom-list">
                     <ul>
                         <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer">
-                            <li>Leg	al</li>
+                            <li>Legal</li>
                             <li>Privacy Center </li>
                             <li>Privacy Policy</li>
                             <li>About Ads</li>
