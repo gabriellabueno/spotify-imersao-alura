@@ -1,7 +1,7 @@
 /* PLAYLISTS CONTENT */
 
 .playlist-container {
-    background-color: var(--mid-purple);
+    background-color: var(--color-second);
     border-radius: 0.5rem;
     position: fixed;
     right: 0;
@@ -17,12 +17,12 @@
 
 .playlist h2 {
     font-size: 1.25rem;
-    color: var(--ice-white);
+    color: var(--color-font);
     margin-top: 0.8rem;
 }
 
 #greeting  {
-    color: var(--ice-white);
+    color: var(--color-font);
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -60,9 +60,9 @@
     height: 12.5rem;
     overflow: hidden;
     border-radius: 0.5rem;
-    background-color: var(--purple-hover);
+    background-color: var(--color-hover-bg);
     &:hover {
-	background-color: var(--light-purple);
+	background-color: var(--color-third);
 	img {
 	    transform: rotate(-10deg) translate(1%,9%) scale(1.05);
 	}
@@ -72,7 +72,7 @@
 .cards span {
     padding: 1rem;
     position: absolute;
-    color: var(--ice-white);
+    color: var(--color-font);
     font-size: 1.125rem;
     font-weight: 700;
 }
@@ -93,22 +93,27 @@
 }
 
 .grid-container {
-    grid-gap: 1.5rem;;
+    grid-gap: 3rem;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     min-width: 23.25rem;
     flex-grow: 0;
 }
 
+.artist-title {
+    color: var(--color-font);
+    font-size: 25px;
+}
+
 .artist-card {
-    background:var(--dark-purple);
+    background:var(--color-first);
     border-radius: 0.5rem;
     isolation: isolate;
     padding: 1rem;
     position: relative;
     transition: background-color 0.3s ease;
     width: 100%;
-    &:hover {background-color: var(--light-purple);}
+    &:hover {background-color: var(--color-third);}
 }
 
 .card-img {
@@ -130,7 +135,6 @@
 .card-text {
     display: flex;
     flex-direction: column;
-    color: #fff;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -138,21 +142,24 @@
 }
 
 .card-text a {
-    display: inline-block;
+    color: #fff;
+    display: grid;
     max-width: 100%;
     vertical-align: middle;
+    text-decoration: none;
+    list-style: none;
 }
 
 .artist-name {
     box-sizing: border-box;
     margin-block: 0rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 700;
     padding-block-end: 0.5rem;
 }
 
 .artist-genre {
-    color: var(--dark-grey);
+    color: var(--color-font-second);
     font-weight: 400;
     font-size: 0.875rem;
 }
@@ -162,12 +169,12 @@
 }
 
 .play .fa-play {
-    color: var(--dark-purple);
+    color: var(--color-first);
     position: absolute;
     right: 0.625rem;
     top: 7.5rem;
     padding: 1.125rem;
-    background-color: var(--ice-white);
+    background-color: var(--color-font);
     border-radius: 100%;
     font-size: 0.875rem;
     opacity: 0;
@@ -182,7 +189,7 @@
 .play .fa-play:hover {
     padding: 1.25rem;
     cursor: pointer;
-    background-color: var(--pink);
+    background-color: var(--color-hover-link);
 }
 
 #result-artist {

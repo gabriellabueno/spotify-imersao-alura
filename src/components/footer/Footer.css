@@ -3,14 +3,14 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(170deg, var(--light-purple) 30%, var(--pink) 100%);
+    background: linear-gradient(170deg, var(--color-third) 30%, var(--color-hover-link) 100%);
     padding: 0.9375rem 2.5rem;
     display: flex;
     justify-content: space-between;
 }
 
 .footer-text p {
-    color: var(--ice-white);
+    color: var(--color-font);
     font-size: 0.75rem;
 }
 
@@ -24,11 +24,12 @@
 }
 
 .get-premium button {
+    border: none;
     position: fixed;
     bottom: 0.5rem;
     right: 0.5rem;
-    color: var(--dark-purple);
-    background-color: var( --ice-white);
+    color: var(--color-first);
+    background-color: var( --color-font);
     padding: 0.8125rem 2rem;
     font-size: 0.8125rem;
     font-weight: 600;

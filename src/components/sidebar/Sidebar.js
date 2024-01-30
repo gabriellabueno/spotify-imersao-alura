@@ -1,13 +1,14 @@
 import './Sidebar.css'
 import logoSpotify from '../../assets/icons/logo-spotify.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faSearch, faBars, faPlus, faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faSearch, faPlus, faGlobe, faHeadphones } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = () => {
     return(
-        <div class="sidebar">
+        <div id="sidebar" class="sidebar">
 
             <nav class="sidebar__navigation">
+
                 <div class="logo">
                     <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer">
                         <img src={logoSpotify} alt="Spotify Logo"/>
@@ -28,15 +29,17 @@ const Sidebar = () => {
                         </a>
                     </li>
                 </ul>
+
             </nav>
 
             <section class="library">
+
                 <div class="library__content">
                     <a href=" ">
-                        <FontAwesomeIcon icon={faBars} class="fa-bars"/>
+                        <FontAwesomeIcon icon={faHeadphones} class="fa-bars"/>
                         <span class="sidebar-title">Your Library</span>
                     </a>
-                    <button FontAwesomeIcon icon={faPlus} class="fa-plus"></button>
+                    <FontAwesomeIcon icon={faPlus} class="fa-plus"/>
                 </div> 
 
 
@@ -69,6 +72,7 @@ const Sidebar = () => {
                         <span>English</span>
                     </button>
                 </div>
+                
             </section>
             
         </div>
