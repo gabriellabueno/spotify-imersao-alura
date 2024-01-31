@@ -13,7 +13,7 @@ This project was developed during a 5-day immersion eventI have taken the initia
 I have taken the initiative to customize according to my favorite artists and playlists 💜
 
 <div align="center">
-<img src="/behavior.gif" width="600px" alt="Website Behavior">  
+<img src="/gifs/behavior.gif" width="600px" alt="Website Behavior">  
 </div>
 
 ---
@@ -24,7 +24,7 @@ I have taken the initiative to customize according to my favorite artists and pl
 * **CSS**: Styled the web page.
 * **JavaScript**: Added interactivity to the webpage.V
 * **React**: Built the user interface with reusable components.
-* **NodeJs**: Developed a local mock REST API from a JSON file.
+* **NodeJs**: Developed a local mock API from a JSON file.
 * **Json**: Structure the fake database.
     
 ## :white_check_mark: Tasks Completed
@@ -33,7 +33,7 @@ I have taken the initiative to customize according to my favorite artists and pl
 ✔ Added responsiveness to the project using **Media Queries**.  
 ✔ Developed a mock API for local testing.  
 
-<img src="/responsiveness.gif" width="500px" alt="Website Responsiveness">
+<img src="/gifs/responsiveness.gif" width="500px" alt="Website Responsiveness">
 
 ## :rocket: New Features
 
