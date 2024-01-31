@@ -14,7 +14,7 @@ const Main = () => {
 
   // hook to search data from the API
   useEffect(() => {
-    fetch(`http://fake-api-spotify.vercel.app/playlists`)
+    fetch(`https://fake-api-spotify.vercel.app/playlists`)
       .then((res) => res.json())
       .then((result) => setPlaylist(result)) // add results
       .catch((err) => console.error(`Error on fetch`, err));
@@ -47,7 +47,7 @@ const Main = () => {
         <div className="playlist-container">
           <div
             id="result-playlist"
-            className={inputHeader ? "hidden" : "result-playlists"}
+            className={ inputHeader ? "hidden" : "result-playlists"}
           >
             <div className="playlist">
               <h1 id="greeting">Welcome!</h1>

@@ -1,4 +1,59 @@
-@media screen and (width <= 780px) {
+@media screen and (width <= 480px) {
+  .sidebar {
+    display: none !important;
+  }
+
+  .header__navigation {
+    width: 93% !important;
+    height: 100%;
+  }
+
+  .header__search {
+    margin: 0 !important;
+    width: 40% !important;
+  }
+
+  .header__search input {
+    padding-right: 0 !important;
+  }
+
+  .main-container .playlist-container {
+    width: 93%;
+    height: 100% !important;
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr !important;
+    height: 100% !important;
+  }
+
+  .offer__scroll-container {
+    overflow-y: visible;
+    max-height: 100vh !important;
+  }
+
+  footer {
+    display: none !important;
+  }
+
+  .navigation {
+    gap: 0.2 !important;
+    margin: 0 0.5rem 0 0.5rem !important;
+  }
+
+  .login {
+    margin: 0 !important;
+  }
+
+  .signup {
+    display: none !important;
+  }
+  .grid-container {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+@media screen and (width > 480px) and (width <= 780px) {
   .sidebar {
     display: none !important;
   }
@@ -34,6 +89,9 @@
 
   footer {
     display: none !important;
+  }
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr !important;
   }
 }
 
@@ -75,89 +133,98 @@
     max-height: 100vh !important;
     margin: 1rem !important;
   }
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
 }
 
 @media screen and (width > 1015px) and (width <= 1040px) {
-    .sidebar {
-      width: 23% !important;
-    }
-  
-    .header__navigation {
-      width: 72% !important;
-      height: 100%;
-    }
-  
-    .navigation {
-      margin-right: 0.5rem;
-    }
-  
-    .header__search {
-      margin: 0 !important;
-      width: 50% !important;
-    }
-  
-    .header__search input {
-      padding-right: 0 !important;
-    }
-  
-    .main-container .playlist-container {
-      width: 72% !important;
-      height: 100% !important;
-    }
-  
-    .offer__list-item {
-      grid-template-columns: 1fr 1fr 1fr !important;
-      height: 100% !important;
-    }
-  
-    .offer__scroll-container {
-      overflow-y: visible;
-      max-height: 100vh !important;
-      margin: 1rem !important;
-    }
+  .sidebar {
+    width: 23% !important;
   }
-  
-  @media screen and (width > 1040px) and (width <= 1360px) {
-    .sidebar {
-        width: 23% !important;
-      }
-    
-      .header__navigation {
-        width: 72% !important;
-        height: 100%;
-      }
-    
-      .navigation {
-        margin-right: 0.5rem;
-      }
-    
-      .header__search {
-        margin: 0 !important;
-        width: 50% !important;
-      }
-    
-      .header__search input {
-        padding-right: 0 !important;
-      }
-    
-      .main-container .playlist-container {
-        width: 72% !important;
-        height: 100% !important;
-      }
-    
-    .offer__list-item {
-        grid-template-columns: 1fr 1fr 1fr !important;
-        height: 100% !important;
-      }
-      
-      .offer__scroll-container {
-        overflow-y: visible;
-        max-height: 100vh !important;
-        margin: 1rem !important;
-      }
-    
-   
-      @media screen and (width > 1360px) {
 
-      }
+  .header__navigation {
+    width: 72% !important;
+    height: 100%;
   }
+
+  .navigation {
+    margin-right: 0.5rem;
+  }
+
+  .header__search {
+    margin: 0 !important;
+    width: 50% !important;
+  }
+
+  .header__search input {
+    padding-right: 0 !important;
+  }
+
+  .main-container .playlist-container {
+    width: 72% !important;
+    height: 100% !important;
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr 1fr 1fr !important;
+    height: 100% !important;
+  }
+
+  .offer__scroll-container {
+    overflow-y: visible;
+    max-height: 100vh !important;
+    margin: 1rem !important;
+  }
+  
+  .artist-card {
+    width: 100% !important;
+  }
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+}
+
+@media screen and (width > 1040px) and (width <= 1360px) {
+  .sidebar {
+    width: 23% !important;
+  }
+
+  .header__navigation {
+    width: 72% !important;
+    height: 100%;
+  }
+
+  .navigation {
+    margin-right: 0.5rem;
+  }
+
+  .header__search {
+    margin: 0 !important;
+    width: 50% !important;
+  }
+
+  .header__search input {
+    padding-right: 0 !important;
+  }
+
+  .main-container .playlist-container {
+    width: 72% !important;
+    height: 100% !important;
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr 1fr 1fr !important;
+    height: 100% !important;
+  }
+
+  .offer__scroll-container {
+    overflow-y: visible;
+    max-height: 100vh !important;
+    margin: 1rem !important;
+  }
+  
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+}
