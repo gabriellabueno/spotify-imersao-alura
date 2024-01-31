@@ -1,13 +1,22 @@
- 
+
+<div align="center">
+
 # :headphones: Purple Spotify 
 
-> **Spotify Landing Page Clone**
+**Spotify landing page clone**  
 
+ [![Website](https://img.shields.io/badge/Explore%20Purple%20Spotify-2c243d?style=for-the-badge&logo=spotify&logoColor=white)](https://purple-spotify.vercel.app/)
 
-This project was developed during a 5-day immersion course organized by Alura.  
-It involved recreating the landing page of Spotify, providing an oportunity for learning and practice in various Front-end technologies.
+</div>
 
- :purple_heart: [Explore the Purple Spotify](https://purple-spotify.vercel.app/)  
+This project was developed during a 5-day immersion eventI have taken the initiative to customize according to my  favorit artists and playlists organized by Alura. It involved recreating the landing page of Spotify, providing an oportunity for learning and practice in various Front-end technologies.  
+I have taken the initiative to customize according to my favorite artists and playlists 💜
+
+<div align="center">
+<img src="/behavior.gif" width="600px" alt="Website Behavior">  
+</div>
+
+---
 
 ## :wrench: Technologies Used
 
@@ -16,13 +25,15 @@ It involved recreating the landing page of Spotify, providing an oportunity for 
 * **JavaScript**: Added interactivity to the webpage.V
 * **React**: Built the user interface with reusable components.
 * **NodeJs**: Developed a local mock REST API from a JSON file.
-* **Json**: Structure the fake database. 
-
+* **Json**: Structure the fake database.
+    
 ## :white_check_mark: Tasks Completed
 
-✔ Recreated the Spotify landing page.
-✔ Added responsiveness to the project using **Media Queries**.
-✔ Developed a mock API for local testing.
+✔ Recreated the Spotify landing page.  
+✔ Added responsiveness to the project using **Media Queries**.  
+✔ Developed a mock API for local testing.  
+
+<img src="/responsiveness.gif" width="500px" alt="Website Responsiveness">
 
 ## :rocket: New Features
 
@@ -48,4 +59,4 @@ Stay tuned for updates on this project as I continue to work towards this goal!
 * [Spotify for Developers](https://developer.spotify.com/)  
 
 > [!NOTE]  
-> Please note that this project is a work in progress and may require further development to fully replicate the functionality of the original Spotify landing page.  
+> Please note that this project is a work in progress and may require further development to fully replicate the functionality of the original Spotify landing page.
