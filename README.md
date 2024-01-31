@@ -9,7 +9,7 @@
 
 </div>
 
-This project was developed during a 5-day immersion eventI have taken the initiative to customize according to my  favorit artists and playlists organized by Alura. It involved recreating the landing page of Spotify, providing an oportunity for learning and practice in various Front-end technologies.  
+This project was developed during a 5-day immersion event organized by Alura. It involved recreating the landing page of Spotify, providing an oportunity for learning and practice in various Front-end technologies.  
 I have taken the initiative to customize according to my favorite artists and playlists 💜
 
 <div align="center">
@@ -22,9 +22,9 @@ I have taken the initiative to customize according to my favorite artists and pl
 
 * **HTML**: Structured the web content.
 * **CSS**: Styled the web page.
-* **JavaScript**: Added interactivity to the webpage.V
-* **React**: Built the user interface with reusable components.
-* **NodeJs**: Developed a local mock API from a JSON file.
+* **JavaScript**: Added interactivity and allowed fetching information from the API.
+* **React.js**: Built the user interface with reusable components and allows using JSX to write HTML inside React.
+* **Node.js**: Provided the environment to work with JS and to developed a local mock API from a JSON file.
 * **Json**: Structure the fake database.
     
 ## :white_check_mark: Tasks Completed
@@ -39,9 +39,9 @@ I have taken the initiative to customize according to my favorite artists and pl
 
 After the Alura Immersion, I've enhanced the project with new functionalities. 
 
-The data for the fake API, previously kept localy, has been migrated to a **JSON Server** hosted on Vercel.  This API has two main endpoints: one for artists and another for playlists.
+The data for the fake API, previously kept localy, has been migrated to a **JSON Server** hosted on Vercel. The application now communicates with two different endpoints of the Spotify fake API to fetch the required data for artists and playlists.
 
-The data is fetched using hooks in React, simplifying the reuse of stateful logic between components without altering the component hierarchy. The application now communicates with two different endpoints of the Spotify fake API to fetch the required data.
+The data is fetched using hooks in React, simplifying the reuse of stateful logic between components without altering the component hierarchy. 
 
 :small_red_triangle: [JSON Server](https://fake-api-spotify.vercel.app/)  
 
