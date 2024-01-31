@@ -1,197 +1,192 @@
 /* PLAYLISTS CONTENT */
 
 .playlist-container {
-    background-color: var(--color-second);
-    border-radius: 0.5rem;
-    position: fixed;
-    right: 0;
-    padding: 0.8rem;
-    margin: 5rem 0.5rem 0 0;
-    width: 73.3%;
-    height: 73%;
+  background-color: var(--color-second);
+  border-radius: 0.5rem;
+  position: fixed;
+  right: 0;
+  padding: 0.8rem;
+  margin: 5rem 0.5rem 0 0;
+  width: 73.3%;
+  height: 73%;
 }
 
 .playlist {
-  margin: 1rem 1.5rem 1.5rem 1.5rem
+  margin: 1rem 1.5rem 1.5rem 1.5rem;
 }
 
 .playlist h2 {
-    font-size: 1.25rem;
-    color: var(--color-font);
-    margin-top: 0.8rem;
+  font-size: 1.25rem;
+  color: var(--color-font);
+  margin-top: 0.8rem;
 }
 
-#greeting  {
-    color: var(--color-font);
-    font-size: 1.5rem;
-    font-weight: 700;
+#greeting {
+  color: var(--color-font);
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 /* SCROLL */
 
 .offer__scroll-container {
-    max-height: 60vh;
-    margin: 1.5rem;
-    overflow-y: auto;
+  max-height: 60vh;
+  margin: 1.5rem;
+  overflow-y: auto;
 }
 
 .offer__scroll-container::-webkit-scrollbar {
-    width: 0.06rem;
+  width: 0.06rem;
 }
 
 .offer__scroll-container::-webkit-scrollbar-thumb {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 /* MAIN CARDS */
 
 .offer__list-item {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    gap: 1rem;
-    margin-bottom: 1rem; 
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .cards {
-    position: relative;
-    width: 13.75rem;
-    height: 12.5rem;
-    overflow: hidden;
-    border-radius: 0.5rem;
-    background-color: var(--color-hover-bg);
-    &:hover {
-	background-color: var(--color-third);
-	img {
-	    transform: rotate(-10deg) translate(1%,9%) scale(1.05);
-	}
-    }   
+  position: relative;
+  width: 13.75rem;
+  height: 12.5rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background-color: var(--color-hover-bg);
+  &:hover {
+    background-color: var(--color-third);
+    img {
+      transform: rotate(-10deg) translate(1%, 9%) scale(1.05);
+    }
+  }
 }
 
 .cards span {
-    padding: 1rem;
-    position: absolute;
-    color: var(--color-font);
-    font-size: 1.125rem;
-    font-weight: 700;
+  padding: 1rem;
+  position: absolute;
+  color: var(--color-font);
+  font-size: 1.125rem;
+  font-weight: 700;
 }
 
-
 .offer__list-item img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: auto;
-    width: 8.75rem;
-    border-radius: 0.5rem;
-    transform: rotate(-10deg) translate(1%,9%);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  width: 8.75rem;
+  border-radius: 0.5rem;
+  transform: rotate(-10deg) translate(1%, 9%);
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .grid-container {
-    grid-gap: 3rem;
-    display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    min-width: 23.25rem;
-    flex-grow: 0;
+  grid-gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  min-width: 23.25rem;
+  flex-grow: 0;
 }
 
 .artist-title {
-    color: var(--color-font);
-    font-size: 25px;
+  color: var(--color-font);
+  font-size: 25px;
+  margin-bottom: 1.5rem;
 }
 
 .artist-card {
-    background:var(--color-first);
-    border-radius: 0.5rem;
-    isolation: isolate;
-    padding: 1rem;
-    position: relative;
-    transition: background-color 0.3s ease;
-    width: 100%;
-    &:hover {background-color: var(--color-third);}
+  background: var(--color-first);
+  border-radius: 0.5rem;
+  isolation: isolate;
+  padding: 1rem;
+  position: relative;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  &:hover {
+    background-color: var(--color-third);
+  }
 }
 
 .card-img {
-    padding-bottom: 100%;
-    position: relative;
-    width: 100%;
-    margin-bottom: 1rem;
+  padding-bottom: 100%;
+  position: relative;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .artist-img {
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    border-radius: 50%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-radius: 50%;
 }
 
 .card-text {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    min-height: 3.875rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-height: 3.875rem;
 }
 
 .card-text a {
-    color: #fff;
-    display: grid;
-    max-width: 100%;
-    vertical-align: middle;
-    text-decoration: none;
-    list-style: none;
+  color: #fff;
+  display: grid;
+  max-width: 100%;
+  vertical-align: middle;
+  text-decoration: none;
+  list-style: none;
 }
 
 .artist-name {
-    box-sizing: border-box;
-    margin-block: 0rem;
-    font-size: 1rem;
-    font-weight: 700;
-    padding-block-end: 0.5rem;
+  box-sizing: border-box;
+  margin-block: 0rem;
+  font-size: 1rem;
+  font-weight: 700;
+  padding-block-end: 0.5rem;
 }
 
 .artist-genre {
-    color: var(--color-font-second);
-    font-weight: 400;
-    font-size: 0.875rem;
+  color: var(--color-font-second);
+  font-weight: 400;
+  font-size: 0.875rem;
 }
 
-.play {
-    position: relative;
-}
-
-.play .fa-play {
-    color: var(--color-first);
-    position: absolute;
-    right: 0.625rem;
-    top: 7.5rem;
-    padding: 1.125rem;
-    background-color: var(--color-font);
-    border-radius: 100%;
-    font-size: 0.875rem;
-    opacity: 0;
-    transition: all ease 0.4s;
+.fa-play {
+  color: var(--color-first);
+  position: absolute;
+  right: 0.625rem;
+  top: 7.5rem;
+  padding: 1.125rem;
+  background-color: var(--color-font);
+  border-radius: 100%;
+  font-size: 0.875rem;
+  opacity: 0;
+  transition: all ease 0.4s;
 }
 
 .artist-card:hover .play .fa-play {
-    opacity: 1;
-    transform: translateY(1.25rem);
-}
-
-.play .fa-play:hover {
-    padding: 1.25rem;
-    cursor: pointer;
-    background-color: var(--color-hover-link);
+  opacity: 1;
+  transform: translateY(1.25rem);
+  padding: 1.25rem;
+  cursor: pointer;
+  background-color: var(--color-hover-link);
 }
 
 #result-artist {
-    padding: 1.25rem 2.5rem;
+  padding: 1.25rem 2.5rem;
 }

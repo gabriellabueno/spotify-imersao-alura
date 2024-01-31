@@ -1,124 +1,122 @@
-
 /* HEADER */
 
 .header__navigation {
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: var(--color-second);
-    border-radius: 0.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.8rem;
-    margin: 0.5rem 0.5rem 0.5rem 0;
-    width: 73.3%;
-    height: 2.4rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: var(--color-second);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  width: 73.3%;
+  height: 2.4rem;
 }
 
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .arrow-left,
 .arrow-right {
-    color: var(--color-font);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 2rem;
-    height: 2rem;
-    background: var(--bg-icon);
-    background-color:var(--color-first);
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-    &:hover {
-        color: var(--color-hover-link);
-        background-color:  var(--color-hover-bg);
-    }
+  color: var(--color-font);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background: var(--bg-icon);
+  background-color: var(--color-first);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    color: var(--color-hover-link);
+    background-color: var(--color-hover-bg);
+  }
 }
 
 .header__search {
-    display: flex;
-    align-items: center;
-    width: 30rem;
-    height: 3rem;
-    margin-left: 0.5rem;
-    background-color: var(--color-first);
-    border-radius: 31.25rem;
-    border: 0.0625rem solid transparent;
+  display: flex;
+  align-items: center;
+  width: 30rem;
+  height: 3rem;
+  margin-left: 0.5rem;
+  background-color: var(--color-first);
+  border-radius: 31.25rem;
+  border: 0.0625rem solid transparent;
 }
 
 .header__login {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-
 .header__search .fa-search {
-    color: var(--color-font-second);
-    width: 1rem;
-    height: 1rem;
-    margin-left: 0.9375rem;
+  color: var(--color-font-second);
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.9375rem;
 }
 
 .header__search input {
-    background: transparent;
-    border: none;
-    padding: 0rem 6.25rem 0 0.65rem;
-    color: var(--color-font-second);
-    text-overflow: ellipsis;
-    outline: none;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
+  background: transparent;
+  border: none;
+  padding: 0rem 6.25rem 0 0.65rem;
+  color: var(--color-font-second);
+  text-overflow: ellipsis;
+  outline: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .signup {
-    border: none;
-    color: var(--color-font-second);
-    font-size: 1rem;
-    font-weight: 700;
-    background-color: transparent;
-    flex-shrink: 0;
-    margin: 0 0.5rem 0 1.5rem;
+  border: none;
+  color: var(--color-font-second);
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: transparent;
+  flex-shrink: 0;
+  margin: 0 0.5rem 0 1.5rem;
 }
 
 .login {
-    border: none;
-    background-color: var(--color-font);
-    width: 6.25rem;
-    height: 3rem;
-    color: var(--color-first);
-    font-size: 1rem;
-    font-weight: 700;
-    border-radius: 2.5rem;
-    margin: 0 0.9375rem 0 1.875rem;
-    &:hover {
-        transform: scale(1.04);
-        transition: all .3 ease-in-out;
-    }
+  border: none;
+  background-color: var(--color-font);
+  width: 6.25rem;
+  height: 3rem;
+  color: var(--color-first);
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 2.5rem;
+  margin: 0 0.9375rem 0 1.875rem;
+  &:hover {
+    transform: scale(1.04);
+    transition: all 0.3 ease-in-out;
+  }
 }
 
 /* HOVER */
 
 .header__search:focus-within {
-    border: 0.0625rem solid var(--color-hover-link);
-   .fa-search {
-	color: var(--color-hover-link);
-    }
-}
-  
-.signup:hover {
-    transform: scale(1.04);
-    color: var(--text-base-light);
+  border: 0.0625rem solid var(--color-hover-link);
+  .fa-search {
     color: var(--color-hover-link);
+  }
+}
+
+.signup:hover {
+  transform: scale(1.04);
+  color: var(--text-base-light);
+  color: var(--color-hover-link);
 }
 
 .login:hover {
-    transform: scale(1.04);
+  transform: scale(1.04);
 }
